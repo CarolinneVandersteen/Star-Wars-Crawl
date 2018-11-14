@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <iframe src="./audio/Star_Wars_original_opening_crawl_1977.ogg" allow="autoplay" style="display:none"></iframe>
-
-      <iframe src="./audio/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" style="display:none"></iframe>
-
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,15 +9,11 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-      
-       <iframe src="./audio/Star_Wars_original_opening_crawl_1977.ogg" allow="autoplay" style="display:none"></iframe>
-
-      <iframe src="./audio/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" style="display:none"></iframe>
-
-      
-      
-      
-    <div class="container">
+   
+    <audio id="audio" onloadeddata="delay()" loop>
+        <source src="StarWarsThemeSong.ogg"/>
+   
+     <div class="container">
         <section class="intro">A long time ago, in a galaxy far,<br> far away....</section>
         <section class="logo"><img src="logo.png"></section>
         <div id="board">
